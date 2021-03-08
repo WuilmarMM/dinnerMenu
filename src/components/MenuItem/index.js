@@ -6,8 +6,8 @@ export default class MenuItem extends React.Component {
   ]
   
   handleClick() {
-    this.setState(prevState => ({
-      numberArr: [...prevState.numberArr, this.value]
+    this.value.setState(prevState => ({
+      state: [...prevState.state, this.value]
     }))
   }
   render() {

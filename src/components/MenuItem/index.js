@@ -1,11 +1,11 @@
 import React from "react"
 
 export default class MenuItem extends React.Component {
-  state = {
+  state = [
     numberArr =[
-    {value:[0]}
+      { value: [0] }
+    ]
   ]
-}
   
   handleClick() {
     this.setState(prevState => ({

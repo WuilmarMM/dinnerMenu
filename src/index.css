@@ -8,11 +8,6 @@ body {
   background-color: burlywood;
 }
 
-h1 {
-  text-align: center;
-  font: helvetica;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -7,7 +7,8 @@ export default class Menu extends React.Component {
             <div>
                 <h1>{this.props.menuName} Menu</h1>
                 {this.props.menuItems.map((menuId) => {
-                    return (<MenuItem {...menuId}></MenuItem>)
+                    return (
+                        <MenuItem {...menuId}></MenuItem>)
                 })}
             </div>
         )

@@ -7,7 +7,7 @@ export default class MenuItem extends React.Component {
   }
 
   handleClick() {
-    MenuItem.setState((prevState) => {
+    this.setState((prevState) => {
       let newValue = prevState.value + 1
       this.props.updateValue(newValue)
       return {

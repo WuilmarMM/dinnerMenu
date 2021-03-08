@@ -3,7 +3,7 @@ import React from "react"
 export default class MenuItem extends React.Component {
    
   handleClick() {
-    arrayNum = [{ value: [0] }]
+    let arrayNum = [{ value: [0] }]
     this.setState( prevState => {
       let newValue = prevState + 1;
       console.log(arrayNum)

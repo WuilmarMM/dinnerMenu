@@ -2,9 +2,7 @@ import React from "react"
 
 export default class MenuItem extends React.Component {
   state = [
-    numberArr =[
       { value: [0] }
-    ]
   ]
   
   handleClick() {

@@ -2,7 +2,7 @@ import React from "react"
 
 export default class MenuItem extends React.Component {
   handleClick(){
-    console.log('click happened')
+    this.setState({ value })
   }
   render() {
     return (<div key={this.props.itemId} className="menu-item" id={`menu-item-${this.props.itemId}`}>

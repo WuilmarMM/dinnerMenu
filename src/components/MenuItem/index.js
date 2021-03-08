@@ -5,13 +5,13 @@ export default class MenuItem extends React.Component {
     super(props)
     
   }
-  arrayvar = [{ value: [0] }]
+  arrayvar = [{ value: [0] } ]
 
   handleClick() {
-    this.setState(prevState => ({
-     let newValue = prevState + 1,
-      arrayvar: [...prevState.arrayvar, newValue]
-    }))
+    this.setState((prevState) => {
+      newValue = prevState + 1;
+      arrayvar = [...prevState.arrayvar, newValue]
+    })
   }
   render() {
     return (<div key={this.props.itemId} className="menu-item" id={`menu-item-${this.props.itemId}`}>
